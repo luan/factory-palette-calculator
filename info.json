@@ -1,0 +1,15 @@
+{
+  "name": "factory-palette-calculator",
+  "version": "0.1.0",
+  "title": "Factory Palette: Calculator",
+  "description": "Adds a calculator source to Factory Palette. Quickly calculate mathematical expressions right from your search palette.",
+  "author": "luan",
+  "contact": "https://github.com/luan/factory-palette",
+  "homepage": "https://github.com/luan/factory-palette",
+  "factorio_version": "2.0",
+  "dependencies": ["? base >= 2.0.11", "factory-palette >= 0.4.0"],
+  "package": {
+    "git_publish_branch": "main",
+    "ignore": ["stylua.toml"]
+  }
+}
