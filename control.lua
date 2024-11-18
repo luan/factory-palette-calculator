@@ -59,7 +59,8 @@ local function looks_like_math(str)
   return true
 end
 
-local function search(player, player_table, query)
+local function search(args)
+  local player, player_table, query, fuzzy = args.player, args.player_table, args.query
   if not looks_like_math(query) then
     return {}
   end
