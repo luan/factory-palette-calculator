@@ -1,6 +1,6 @@
 {
   "name": "factory-palette-calculator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Factory Palette: Calculator",
   "description": "Adds a calculator source to Factory Palette. Quickly calculate mathematical expressions right from your search palette.",
   "author": "luan",
